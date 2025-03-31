@@ -3,9 +3,9 @@ package com.kotlin
 import com.kotlin.Color.*
 import java.io.BufferedReader
 
-/**
+/*
  * null 가능성을 명시적으로 구분한다.
- * 여러 클래스를 같은파일에 작성 가능하고 파일의 최상단에 함수를 작성할 수 있다.
+ * 함수를 꼭 클래스안에 정의하지 않아도 된다.
  * if는 식이다.
  * 스마트 캐스트: 변수를 한번 타입검사를 하면 굳이 캐스팅하지 않아도 된다.
  * checked / unchecked를 구별하지 않는다.
